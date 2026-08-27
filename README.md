@@ -6,272 +6,128 @@
 
 ### Spotify Artist & Song Intelligence
 
-</div>
+<div align="center">
 
-  
+<img src="./Smoothyfy-logo.png" alt="Smoothyfy Logo" width="650">
 
-### Spotify Artist & Song Intelligence Dashboard 💗
+# 🎀 Smoothyfy
 
-<p>
-An interactive Spotify analytics dashboard built with Python and Streamlit.
-Explore artist insights, song popularity predictions, and music clustering
-through a pink-themed interactive experience.
-</p>
+### Spotify Artist & Song Intelligence
 
-<br>
-
-<a href="https://smoothyfy.streamlit.app/">
-  🚀 <strong>LIVE DEMO — OPEN SMOOTHYFY</strong>
-</a>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
-<img src="https://img.shields.io/badge/Streamlit-Application-red?style=for-the-badge&logo=streamlit">
-<img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge">
-<img src="https://img.shields.io/badge/Status-Deployed-success?style=for-the-badge">
+**An interactive music analytics and machine learning dashboard**
 
 </div>
 
 ---
 
-# 🎧 About Smoothyfy
+## 💗 About Smoothyfy
 
-**Smoothyfy** is a Spotify Artist & Song Intelligence Dashboard designed to
-explore music data through an interactive and visually engaging interface.
+**Smoothyfy** is an interactive Spotify Artist & Song Intelligence dashboard
+built with **Python and Streamlit**.
 
-The application combines **Data Science, Machine Learning, Data Visualization,
-and Streamlit** to provide insights into artists and songs.
+The project explores Spotify music data through artist analysis, song
+analysis, popularity prediction, audio-feature exploration, and machine
+learning-based clustering.
 
-Users can explore artist statistics, analyze songs, view the most popular songs,
-predict song popularity using Random Forest, and discover music clusters using
-K-Means clustering.
-
----
-
-# ✨ Features
-
-### 🎤 Artist Search
-Search and explore artists available in the dataset.
-
-### 👥 Artist Followers
-View the number of Spotify followers for each artist.
-
-### ⭐ Artist Popularity
-Explore artist popularity scores based on the dataset.
-
-### 🎵 Song Analysis
-Select a song and view detailed information including:
-
-- Song title
-- Album
-- Release date
-- Genre
-- Popularity
-- Song artwork
-
-### 📊 Top 10 Songs
-View the top 10 songs ranked according to popularity.
-
-### 🤖 Random Forest Prediction
-Predict song popularity using audio features with a
-**Random Forest Regression model**.
-
-### 🧩 K-Means Clustering
-Group songs based on their audio-feature patterns using
-**K-Means clustering**.
-
-### 🎧 Spotify Integration
-Open an artist directly on Spotify from the dashboard.
-
-### 💗 Interactive UI
-A custom pink-themed Streamlit interface designed for an engaging
-music analytics experience.
+It combines **Data Analysis + Visualization + Machine Learning + Interactive UI**
+into one music intelligence application.
 
 ---
 
-# 🧠 Machine Learning
+## ✨ Features
 
-Smoothyfy contains **two Machine Learning components**.
-
-## 🌳 1. Random Forest — Popularity Prediction
-
-A Random Forest model is used to predict the popularity of a song
-using its audio features.
-
-### Example Result
-
-**Predicted Popularity**
-
-`73 / 100`
-
-**Actual Popularity**
-
-`92 / 100`
-
-The model helps estimate how popular a song could be based on
-its available audio characteristics.
+- 🎤 Artist search and artist exploration
+- 🎵 Song analysis
+- 📊 Spotify dataset analysis
+- 🎧 Audio-feature analysis
+- 🔥 Top 10 popular songs analysis
+- 🤖 Song popularity prediction
+- 🧠 K-Means music clustering
+- 📈 Actual vs Predicted popularity visualization
+- 💕 Interactive pink-themed Streamlit dashboard
 
 ---
 
-## 🧩 2. K-Means — Music Clustering
+## 🚀 Live Demo
 
-K-Means clustering is used to group songs according to similarities
-in their audio features.
+<div align="center">
 
-### Example Result
+### 🎀 Try Smoothyfy
 
-**Cluster:** `3`
+[**🌸 OPEN SMOOTHYFY LIVE**](https://smoothyfy.streamlit.app/)
 
-**Songs in Cluster:** `236`
+</div>
 
-This allows songs with similar audio characteristics to be grouped
-into the same cluster.
+> Replace `YOUR_STREAMLIT_URL` with your deployed Streamlit URL.
 
 ---
 
-# 📊 Dashboard Preview
-
-## 🏆 Top 10 Songs
-
-![Top 10 Songs](top10.png)
-
-The dashboard displays the most popular songs along with:
-
-- Song
-- Album
-- Popularity
-- Release date
-- Genre
-
----
+# 🖥️ Application Screenshots
 
 ## 🎤 Artist Search
 
-![Artist Search](Artists-searched.png)
+The artist search section allows users to search and explore artists
+available in the Spotify dataset.
 
-Search for an artist and explore their information.
-
-The sidebar also provides a list of available artists and their
-follower counts.
-
----
-
-## 👤 Artist Details
-
-![Artist Details](Artists-details.png)
-
-The artist section displays:
-
-- Artist name
-- Followers
-- Artist popularity
-- Number of songs
-- Genres
-- Spotify link
+<p align="center">
+<img src="./Artists-searched.png" alt="Artists Searched" width="850">
+</p>
 
 ---
 
-## 🤖 Machine Learning Results
+## 🎤 Artist Details
 
-![Machine Learning Results](Machine-learning-result.png)
+Displays detailed information and insights related to the selected artist.
 
-Smoothyfy displays the results generated by the Machine Learning models.
-
-### K-Means
-
-- Cluster assignment
-- Number of songs in the cluster
-
-### Random Forest
-
-- Predicted popularity
-
-### Actual Popularity
-
-- Actual popularity from the dataset
+<p align="center">
+<img src="./Artists-details.png" alt="Artist Details" width="850">
+</p>
 
 ---
 
-## 🎶 Song Analysis
+## 🎵 Song Analysis
 
-![Song Analysis](Analysis-song.png)
+Explores song-level information and characteristics from the Spotify dataset.
 
-Select a song to explore detailed information including its artwork,
-album, release date, genre, and popularity.
-
----
-#🎵Audio Features Analysis
-![Audio Features Analysis](Audio-feature-analysis.png)
-# 📈 Actual vs Predicted Popularity
-
-![Actual vs Predicted](Actual-vs-predicted.png)
-
-The dashboard compares the **actual popularity** of a song with the
-**Random Forest predicted popularity**.
-
-This provides a simple visual comparison of model output against
-the original dataset value.
+<p align="center">
+<img src="./Analysis-song.png" alt="Song Analysis" width="850">
+</p>
 
 ---
 
-# 🛠️ Technologies Used
+## 🎧 Audio Feature Analysis
 
-| Technology | Purpose |
-|---|---|
-| 🐍 Python | Programming |
-| 🎈 Streamlit | Web application |
-| 🐼 Pandas | Data processing |
-| 🔢 NumPy | Numerical computing |
-| 📊 Matplotlib | Data visualization |
-| 🤖 Scikit-learn | Machine Learning |
-| 🌳 Random Forest | Popularity prediction |
-| 🧩 K-Means | Music clustering |
-| 🎧 Spotify Dataset | Music analytics |
-| 🐙 GitHub | Version control & deployment |
+Analyzes important audio characteristics of songs and helps understand
+patterns within the music dataset.
+
+<p align="center">
+<img src="./Audio-feature-analysis.png" alt="Audio Feature Analysis" width="850">
+</p>
 
 ---
-## 📂 Project Files
 
-| File | Description |
-|---|---|
-| `Smoothyfy-Final.py` | 🎨 Main Streamlit application containing the complete dashboard UI, artist search, song analysis, visualizations, and ML results |
-| `spotifydataset.csv` | 🎵 Main Spotify dataset containing artist, song, popularity, follower, genre, and audio-feature data |
-| `clustered_songs.csv` | 🧩 Dataset containing K-Means cluster assignments for songs |
-| `kmeans_model.pkl` | 🤖 Trained K-Means clustering model used to assign songs to music clusters |
-| `popularity_model.pkl` | 🌳 Trained Random Forest model used to predict song popularity |
-| `scaler.pkl` | 📏 Saved feature scaler used to transform audio features before Machine Learning predictions |
-| `requirements.txt` | 📦 List of Python packages required to run Smoothyfy |
-| `README.md` | 📖 Project documentation, features, screenshots, ML details, and setup instructions |
-| `Analysis-song.png` | 🎶 Screenshot of the song analysis section |
-| `Artists-details.png` | 🎤 Screenshot showing artist information and statistics |
-| `Audio-feature-analysis.png` | 📊 Screenshot of audio-feature analysis/visualization |
-| `Machine-learning-result.png` | 🤖 Screenshot showing Random Forest and K-Means results |
-| `.devcontainer/` | ⚙️ Development container configuration for the project |
-# 📂 Project Structure
+## 🔥 Top 10 Songs
+
+Displays the top 10 songs based on popularity within the dataset.
+
+<p align="center">
+<img src="./top%2010.png" alt="Top 10 Songs" width="850">
+</p>
+
+---
+
+# 🤖 Machine Learning
+
+Smoothyfy contains **two main machine learning components**.
+
+## 1. 🔥 Popularity Prediction
+
+### Random Forest Regression
+
+A **Random Forest Regression** model is used to predict track popularity
+using relevant song and audio features.
+
+The trained model is stored as:
 
 ```text
-Smoothyfy/
-│
-├── Smoothyfy-Final.py
-│
-├── spotifydataset.csv
-├── clustered_songs.csv
-│
-├── popularity_model.pkl
-├── kmeans_model.pkl
-├── scaler.pkl
-│
-├── requirements.txt
-├── README.md
-│
-├── assets/
-│   └── smoothyfy-logo.png
-│
-└── screenshots/
-    ├── top10.png
-    ├── artist-search.png
-    ├── artist-details.png
-    ├── ml-results.png
-    ├── song-analysis.png
-    └── actual-vs-predicted.png
+popularity_model.pkl
