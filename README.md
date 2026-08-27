@@ -1,8 +1,14 @@
 <div align="center">
 
-<img src="assets/smoothyfy-logo.png" width="220">
+<img src="smoothyfy-logo.png" alt="Smoothyfy Logo" width="650">
 
-# 🎵 Smoothyfy
+# 🎀 Smoothyfy
+
+### Spotify Artist & Song Intelligence
+
+</div>
+
+  
 
 ### Spotify Artist & Song Intelligence Dashboard 💗
 
