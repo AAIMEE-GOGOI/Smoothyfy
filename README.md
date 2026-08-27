@@ -10,7 +10,7 @@
 
 <br>
 
-<a href="YOUR_STREAMLIT_APP_URL">
+<a href="https://smoothyfy.streamlit.app/">
   <strong>🌸 LIVE DEMO — OPEN SMOOTHYFY</strong>
 </a>
 
